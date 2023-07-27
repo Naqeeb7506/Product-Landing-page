@@ -1,0 +1,374 @@
+@media screen and (max-width: 1200px) {
+  .core .container .core_box {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+  }
+  .core .title h1 {
+    padding: 30px 0;
+  }
+  .core .container .core_box .watch_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .core .container .core_box .watch_img img {
+    width: 300px;
+  }
+  .about .about_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .about .about_container .about_content {
+    width: 80%;
+    /* text-align: center; */
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .home .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .home .container .left_box {
+    width: 100%;
+  }
+
+  .home .container .right_box img {
+    width: 350px;
+  }
+
+  .features .features_box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .product .product_container {
+    width: 50%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .product .product_container .item .item_img {
+    width: 250px;
+  }
+  .product .product_container .item .item_text h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .contact .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact form {
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav .menu {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  .topmenu {
+    display: block;
+  }
+  .home .container .left_box h1 {
+    font-size: 45px;
+  }
+  .home .container .left_box p {
+    font-size: 20px;
+  }
+  .home .container .right_box img {
+    width: 300px;
+  }
+  .core .title h1 {
+    font-size: 25px;
+  }
+  .about .about_container .product_img img {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .core .container .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .core .container .core_box .watch_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .core .title h1 {
+    font-size: 22px;
+  }
+  .about,
+  .features,
+  .product {
+    padding: 40px 0;
+  }
+  .about .about_container {
+    gap: 30px;
+  }
+  .about .about_container .about_content {
+    width: 100%;
+  }
+  .about .about_container .product_img img {
+    width: 400px;
+  }
+  .about .about_container .about_content h1 {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+  .about .about_container .about_content p {
+    font-size: 15px;
+  }
+  .about .container .title,
+  .features .title,
+  .product .title {
+    padding: 20px 0;
+  }
+  .features .features_box .box {
+    padding: 15px;
+  }
+  .features .features_box .box i {
+    font-size: 25px;
+  }
+  .features .features_box .box h2 {
+    font-size: 22px;
+  }
+  .features .features_box .box p {
+    font-size: 15px;
+  }
+  .contact form input,
+  .contact form textarea,
+  .contact form button {
+    font-size: 18px;
+  }
+  .contact form {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+  .contact .contact_context h1 {
+    font-size: 30px;
+  }
+  .contact .contact_context p {
+    font-size: 15px;
+    padding: 15px 0;
+  }
+  footer h1 {
+    font-size: 25px;
+  }
+  footer h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .features .features_box {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .product .product_container .item {
+    width: 400px;
+  }
+  .product .product_container .item .item_text h2 {
+    font-size: 20px;
+  }
+  .product .product_container .item .item_text button {
+    font-size: 15px;
+  }
+  footer h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about,
+  .features,
+  .product {
+    padding: 30px 0;
+  }
+  .about .about_container .product_img img {
+    width: 300px;
+  }
+  .about .about_container .about_content h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  .about .about_container .about_content p {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  .about .container .title,
+  .features .title,
+  .product .title {
+    padding: 15px 0;
+  }
+  .about .about_container .options i {
+    font-size: 12px;
+  }
+  .product .product_container .item {
+    width: 300px;
+  }
+  .product .product_container .item .item_text h2 {
+    font-size: 18px;
+  }
+  .product .product_container .item .item_text p {
+    font-size: 15px;
+  }
+  .product .product_container .item .item_text button {
+    font-size: 13px;
+  }
+  .contact form input,
+  .contact form textarea,
+  .contact form button {
+    font-size: 15px;
+  }
+  .contact .contact_context h1 {
+    font-size: 25px;
+  }
+  .contact .contact_context p {
+    font-size: 13px;
+    padding: 12px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home .container .left_box h1 {
+    font-size: 40px;
+  }
+  .home .container .left_box p,
+  .home .container .left_box button,
+  .about .about_container .about_content button {
+    font-size: 18px;
+  }
+  .home .container .right_box img,
+  .core .container .core_box .watch_img img {
+    width: 220px;
+  }
+  .core .title h1 {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  .core .container .cards .box {
+    width: 250px;
+    padding: 10px;
+  }
+  .core .container .cards .box .heading i {
+    font-size: 20px;
+  }
+  .core .container .cards .box .heading h2 {
+    font-size: 20px;
+  }
+  .core .container .cards .box p {
+    font-size: 15px;
+  }
+  .about .container .title h1,
+  .features .title h1,
+  .product .title h1 {
+    font-size: 22px;
+  }
+  .features .features_box .box {
+    padding: 12px;
+  }
+  .features .features_box .box i {
+    font-size: 22px;
+  }
+  .features .features_box .box h2 {
+    font-size: 20px;
+  }
+  .features .features_box .box p {
+    font-size: 13px;
+  }
+  .features .features_box {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .about,
+  .features,
+  .product {
+    padding: 20px 0;
+  }
+  .about .about_container .product_img img {
+    width: 250px;
+  }
+  .about .about_container .about_content h1 {
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+  .about .about_container .about_content p {
+    font-size: 12px;
+  }
+
+  .about .about_container {
+    gap: 20px;
+  }
+  .home .container .left_box button,
+  .about .about_container .about_content button {
+    font-size: 15px;
+  }
+  .features .features_box .box {
+    padding: 10px;
+  }
+  .features .features_box .box i {
+    font-size: 20px;
+  }
+  .features .features_box .box h2 {
+    font-size: 18px;
+  }
+  .features .features_box .box p {
+    font-size: 10px;
+  }
+  .product .product_container .item {
+    flex-direction: column;
+    gap: 0px;
+    width: 200px;
+  }
+  .product .product_container .item .item_img {
+    width: 100px;
+  }
+  .product .product_container .item .item_text {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+    padding-left: 0px;
+    border-top: 2px solid white;
+    border-left: none;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .about .about_container .product_img img {
+    width: 200px;
+  }
+  .core .title h1 {
+    font-size: 18px;
+  }
+  .core .container .cards .box {
+    width: 200px;
+    padding: 10px;
+  }
+  .core .container .cards .box .heading i {
+    font-size: 20px;
+  }
+  .core .container .cards .box .heading h2 {
+    font-size: 15px;
+  }
+}
